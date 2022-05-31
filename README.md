@@ -1,6 +1,6 @@
 # Discoverly - Project 3 @ GA (General Assembly)
 
-This was my first group project on the Software Engineering course, built in collaboration with [Tom Riley](https://github.com/TomCRiley) and [Elise La Rooy](https://github.com/eliselarooy)
+This was my first group project on the Software Engineering course, built in collaboration with [Tom Riley](https://github.com/TomCRiley) and [Elise La Rooy](https://github.com/eliselarooy).
 
 ![app-screenshot](https://res.cloudinary.com/dj7e2jadx/image/upload/v1654004396/Screenshot_2022-05-31_at_14.39.33_xyxv0g.png)
 
