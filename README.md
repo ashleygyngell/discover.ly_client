@@ -1,232 +1,125 @@
-# ReadMe
+# Discoverly - Project 3 @ GA (General Assembly)
 
-# 🌎Discover.ly Client🌎
-We deployed this website using Heroku ➡️[HERE](https://discoverly.netlify.app/)⬅️. The free servers on Heroku sleep when they are not in use, so please allow a few seconds for them to wake up! 😴
+This was my first group project on the Software Engineering course, built in collaboration with [Tom Riley](https://github.com/TomCRiley) and [Elise La Rooy](https://github.com/eliselarooy)
 
-You can find the API side of the project ➡️[HERE](https://github.com/TomCRiley/discover.ly_api#readme)⬅️
+![app-screenshot](https://res.cloudinary.com/dj7e2jadx/image/upload/v1654004396/Screenshot_2022-05-31_at_14.39.33_xyxv0g.png)
 
-### Developers
-[Tom Riley](https://github.com/TomCRiley)
-[Ashley Gyngell](https://github.com/ashleygyngell)
-[Elise La Rooy](https://github.com/eliselarooy)
+## Deployment 
 
-## Brief
-* 7 days to build a full front and end and backend web application.
-* Complex CRUD operations like posting and commenting, with user registration and authentication with JWT tokens. All served from a Mongo database to an Express API.
-* Consume the API with a React front end.
-* Use any combination of CSS framework or CSS/SASS to style the front end.
+This app has been deployed via Heroku and Netlify and is available [here](https://discoverly.netlify.app/).
 
-## Overview and Concept
+The free servers on Heroku sleep when they are not in use, so please allow a few seconds for them to wake up! 
 
-![tM8rpQWW26ACuvw8IPwP5Z5R68TFLzIW232zpw5AnrYI295FYaRkoSt2sfL_TtMLwQr6JvVsB1sRM8URkODs7OJXJh4iDOLRRoEI4_gop9LS6ZJw885BxnE7r9MQqhPGmhraWrPAusSVTw2Wag](https://user-images.githubusercontent.com/97558359/168836890-edfbc174-cbbe-423a-a682-e2d6fa74c5f7.png)
+Feel free to register as a user or use: **email:** `demo@demo.com` & **password:** `Demo123!`
 
-<img width="754" alt="vj6Fev_TZKJ4RNHvi9TEQcRGAY2HO4AgBFowHB9BjNrv68T9m55CtQAGGILTVkQ6X0xvqEZLWa-FTAGWTL0AR51OIMjxU6ZINY7CJd9NnzzvuHaG_KReNixExIYmNc7vL9-4JQ-4i0wGQq5Sig" src="https://user-images.githubusercontent.com/97558359/168836917-e2fc8c12-30a4-4f49-9fb0-01cdea749831.png">
+This Repo is for the frontend only. The code for the backend is available [here](https://github.com/ashleygyngell/discover.ly).
 
+## The Brief
 
-## Technologies Used
-### Database
-* MongoDB
-### Backend
-* Node.js
-* Express
-### Frontend 
-* JavaScript / ES6
-* React.js
-* HTML5
-* CSS3 + SASS
-* Bulma.io
-### Dependencies
-* Axios
-* JSONWeb Tokens
-* Bcrypt 
-* React-router-dom
-* Babel
-* Cloudinary
-* Bulma
-* Leaflet.js
-### Dev Tools
-* Visual Studio Code
-* Git + GitHub
-* Postman
-* Cloudinary
-* Heroku + Netlify
-* Vectornator
-* Figma
-* Excalidraw
-### Installation Instructions
-* Clone our repo from GitHub onto your machine.
-* Use yarn or npm to install all dependencies from the package.json file.
+A 7 day build time to create a full stack web application. 
+- Feature complex CRUD operations like posting and commenting, including user registration and JWT authenication.
+- Is served from a Mongo database to an Express API
+- Incorporates a React front end
+- Uses any combination of CSS frameworks or CSS/SASS to style the front end. 
 
-### Planning + Wireframing
+## Languages / Frameworks / Databases used 
 
-![9ghxhmgChBi0LU6gVCViSLgUTnT9EsoQ56Pb-81ilMYhFyVYz8OE51QFmGbHnhlA5kmRn0_-ih9eY1Ymot2gRd2Mh0RSHJV0xkTn1JZUEwfeWOVHHi4FG6xSZaI1T3AkvJ-gCID6fFzWLtbqBw](https://user-images.githubusercontent.com/97558359/168837004-51a6aa34-ab80-44f1-9297-49dfd2262cbf.png)
+- MongoDb
+- React
+- Node.js
+- Bulma
+- HTML5
 
+## Installation 
 
-![SnRV9R3227ialOz1efiX9lAYW_taUlR0CInHn3ygdD1UHHdx6f0wf_v_5wwORXkZkRFVprNjl5Sx0IqY0J1glAoXrtzU-ipE3bXGkFibNaUbbLzReSs-h8IP-M-okJVhfU0gIJ1NTD_QzrmE5g](https://user-images.githubusercontent.com/97558359/168837011-3668b251-4ec8-47e2-b184-4663bf67fdc2.png)
+- Clone the repo from GitHub onto your machine.
+- Use yarn/npm to install all dependencies from the package.json file.
 
-<img width="650" alt="Lt0eoa9JsIGk4-A-jr7Z1Rc-pqXeNl77Y6oUWbKmNBPrzP3psAlTrap0TpJ3HKOqY0LX0JNhwt-v10qXFYDah9ekH-0K1nGyYBySPtkV24aYb1vF96jyXK0Jx8E9ipqSgCjAhCXkkhqOgMAHkg" src="https://user-images.githubusercontent.com/97558359/168837071-abd341bb-0f02-47e6-bfb1-debcc937afad.png">
+## Concept
 
-## The Build
-* We were placed into groups of three. For us, it was alarmingly easy to come up with a concept for a project. We wanted to build something social, something that represented the different corners of England that we live in and something that would be flexible enough to be expanded upon should we reach our MVP in good time.
-* We came up with a social discovery app, where users can post their favourite running routes or hiking locations. Our MVP would be to post and upload pictures, and our stretch goals would include vital things like mapping (though important, we thought it could be a huge time-sink).
-* Working in an Agile methodology, with daily stand ups and some pair programming when necessary, helped us keep organised and aware of what each other was doing.
-* Primarily, we worked with version control through Git and on our own branches of the repository. Occasionally there were some merge conflicts, but these were generally avoided as we worked siloed into our own components or pre defined tasks that we would take from the Trello board.
-* 
-I primarily worked on the NavBar, user profile page, mapping elements and the homepage. 
+A Social Discovery app where users can post their favorite spots for sporting activities. 
 
-On the user profile page, I needed to be able to dynamically update the users information when they had registered for an account and when they logged in. The general goal was to show the places that they’d ‘liked’, dynamically update their profile picture and also display their username.
+## Phase One (Day 1)
 
-I used React useState and useEffect to return the user information depending on the login credentials. 
+**Concept, Wireframing, Pseudocoding**
 
-```JavaScript
- const [createdSpots, setCreatedSpots] = React.useState(null);
- const [likedSpots, setLikedSpots] = React.useState(null);
- const [user, setUser] = React.useState({});
- 
- React.useEffect(() => {
-   const getData = async () => {
-     const user = await getUserById(getLoggedInUserId());
-     const createdSpots = await getAllSpotsForUser(user._id);
-     setUser(user);
-     setCreatedSpots(createdSpots);
-   };
- 
-   getData();
- }, []);
-```
+Our intial conversation revolved around a desire to build a social app that incorporated a mutual appreciation for outdoor activities. 
 
-Here, I am grabbing the user with an asynchronous ‘await’, and setting the state to the current logged in user. I’m also setting state for the ‘spots’ that the user has created on our app. 
-```JavaScript
-<div className="container">
-       <section>
-         <h3 className="title is-5">Your spots</h3>
-         <div className="">
-           {!createdSpots ? <p>Loading...</p> : spotsLength(createdSpots)}
-         </div>
-       </section>
+Our first task was to sketch up a wireframe that walked through a basic user story and visualize our mininum viable product. We then spent some time working out the best way to use git branches for optimum version control and created tickets on a Trello board, pre defining all the tasks we needed to complete.
 
-```
-Above, you can see that I’ve used a ternary statement to employ the useEffect if the user has created any ‘spots’ on our app, if not, the JSX will return a Loading… <p>
+Finally, we decided to work with an Agile methodology, to incorporate daily stand-ups and look for paired programming opportunities.
 
-There are similar applications of useState across the page, for example with the username and profile picture: 
-```JavaScript
-<h1 className="title">@{user.username}</h1>
-```
-``` JavaScript
-<figure className="image is-128x128">
-             <img
-               className="is-rounded"
-               src={user.profileImage}
-               alt="profile pic"
-             />
-           </figure>
-```
+![wireframe-screenshot](https://res.cloudinary.com/dj7e2jadx/image/upload/v1654004136/Screenshot_2022-05-31_at_14.34.13_eabnvx.png)
 
-<hr/>
+![trello-screenshot](https://res.cloudinary.com/dj7e2jadx/image/upload/v1654004129/Screenshot_2022-05-31_at_14.34.53_voonus.png)
 
-```JavaScript
-const createComment = async (req, res, next) => {
+## Phase Two (Day 2-4)
+
+**The Back End Build** 
+
+We worked through the Trello board tickets one at a time, focussing on the backend first. We wanted to make sure the majority of the back end was running correctly, to make the connection to the front end as seamless as possible. This involved creating controllers for the users, comments and spot creation. I took on the responsibility of the login and registration features as shown below in a code snippet from usersController.js.  
+
+```async function registerUser(req, res, next) {
   try {
-    const spot = await Spot.findById(req.params.id);
+    const searchedUser = req.body.username;
+    console.log(searchedUser);
+    const users = await User.findOne({ username: searchedUser });
+    console.log(users);
+    if (!req.body.username) {
+      return res.status(203).send({ message: 'Username Required' });
+    else if (users !== null) {
+      return res.status(203).send({ message: 'Username Already Exists' });
+```
+The async function used here contains an await expression that suspends execution until the returned promise is fulfiled. First it checks for an input, returning an 203 error if not detected. Then, if the user has input a username, it checks against information in the database, returning a 203 error if the username already exists. This process carries on through a variety of else if statements.
 
-    if (!spot) {
-      return res.status(404).send({ message: 'Spot not found!' });
-    }
-
-    const newComment = { ...req.body, createdBy: req.currentUser._id };
-
-    spot.comments.push(newComment);
-    const savedSpot = await spot.save();
-
-    return res.status(201).json({ message: 'New comment created!', savedSpot });
+For example, the next code snippet demonstrates the multiple use cases of regex for input validation when a user is registering a profile. These patterns represent a set of strings that check for certain conditions. This was crucial in avoiding a generic password input, nor a false email. Finally, the last section of the  code is where the user is created if all of the if statements are not applicable and the await expression is resolved with a creation of a user, passing in the request body. 
+    
+  ``` } else if (
+      !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(req.body.email)
+    ) {
+      return res.status(203).send({ message: 'Email Invalid' });
+    } else if (
+      !/(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$/.test(req.body.password)
+    ) {
+      return res.status(203).send({
+        message:
+          'Password is not valid. Password must contain: 10 characters, 1 symbol and 1 number.',
+      });
+    } 
+    const user = await User.create(req.body);
+    return res.status(201).send({ message: 'success', user });
   } catch (err) {
     next(err);
   }
-};
-```
+}
+``` 
 
-One of our first priorities was to create endpoints for all our major user functionality like posting a location they’d discovered or uploading a comment or a picture. This is an endpoint that allows a user to post a comment.
+## Phase Three (Day 5-7)
 
-We first needed a way to interface between our Express functionality and the Mongo database. We used Mongoose which enabled us to easily perform CRUD operations on the correct collection in our database. 
+**The Front End Build**
 
-With Mongoose, we designed our schemas that allow us to store our data in a specific configuration. 
-
-```JavaScript
-const commentSchema = new mongoose.Schema(
-  {
-    text: { type: String, required: true, maxlength: 300 },
-    rating: { type: Number, required: true, min: 1, max: 5 },
-    createdBy: { type: mongoose.Schema.ObjectId, ref: 'User', required: true },
-  },
-  { timestamps: true }
-);
-export default mongoose.model('Comment', commentsSchema);
-```
-
-Here we are telling Mongoose that the comment a user creates ::must have:: text, which is a string and has a max length of 300 characters, along with a rating between 1 and 5, a username and a time stamp.
-
-```javascript
-export const createComment = async (id, comment) => {
-  const options = {
-    method: 'POST',
-    url: `/api/spots/${id}/comments`,
-    data: comment,
-    headers: {
-      authorization: `Bearer ${window.sessionStorage.getItem('token')}`,
-    },
-  };
-  const { data } = await axios.request(options);
-
-  return data;
-};
-```
-
-In our front end, we accessed the endpoint with Axios, making sure to include a header with the authorisation token so that only a logged in user can make a comment. 
-
-```javascript
-const [user, setUser] = React.useState(null);
-
-  React.useEffect(() => {
-    const getData = async () => {
-      const user = await getUserById(createdBy);
-      setUser(user);
-    };
-
-    getData();
-  }, []);const [user, setUser] = React.useState(null);
-```
-
-Lastly, to implement the comment we used React useEffect to grab the data from the endpoint with an asynchronous function. We then used setState to update the HTML with the new data from the endpoint - in this case, a user comment.
-
-<img width="740" alt="RnI0GVotsH6BMZHFS0tfYhWOiu0eC5STZPp8yr0yWPElBuj-bf_V2MgqOC6ehxYxSZTPVRvJVtnkbktWPQT2rhh6hnYlUFpJbYGvf1mIKgCnCmimbGjU-Uk85gLt3iSfcmntHgKY4D9g-C9_hQ" src="https://user-images.githubusercontent.com/97558359/168837286-a2e9e47f-b59d-44a5-9abd-0292df9066e0.png">
-
-## Wins & Challenges
-This was a huge step up in complexity from my previous hackathon project. I really enjoyed the project management aspect of this early on, deciphering what we needed to do as soon as possible for MVP and feeding back to our teachers in stand ups. 
-
-I also found it was great experiencing working in teams with a fuller understanding of version control and how to merge independent features together. We iterated extremely fast because of this and my teammates Elise and Ash came just as ready as I did every single day to smash the project. It was a really collaborative environment where we implemented as many ideas as we could think of.
-
-I personally am very proud of managing to get maps into the website, especially implementing the ‘pin’ functionality of Leaflet.js and customising it to include the logo I had designed. 
-
-I did have some challenges, I think learning how to read documentation (namely Leaflet.js’) was a major lightbulb moment for me during this project. It can’t be rushed because the detail really matters. 
-
-Just as importantly, writing readable code is important. The Map function had many, many iterations; at first, I tried implementing autosuggest for locations using the What3Words API. This would allow a user to search for their location using the W3W app, and then get an ultra precise but easy-to-parse location. Turns out, JavaScript has this built in with the navigator geolocation function. This was much quicker to implement:
-
-``` JavaScript
- const handleGps = () => {
-   navigator.geolocation.getCurrentPosition(function (position) {
-     console.log('Latitude is :', position.coords.latitude);
-     console.log('Longitude is :', position.coords.longitude);
-     updateMap(position.coords.latitude, position.coords.longitude);
-   });
- };
-```
+We built the majority of the front end by coding as a group, with the Bulma CSS framework handling most of the design process for us. We installed a few extra node packages for a word carousel and login/signup transition whilst incoprotating Cloudinary for our image uploads and leaflet for our Maps. 
 
 
-## Stretch Goals
-As mentioned, we did iterate very quickly and managed to include most of our wishlist features. Something we didn’t manage to implement was a user bio that a user could update after registration. 
+# Wins 
 
-## More about me
-You can find me at www.tomriley.dev where I maintain all my live portfolio projects. You can also email me ➡️[📧(click me!)](mailto:hello@tomriley.dev)⬅️  
+- Working alongside Tom and Elise was a genuine delight. We were able to constructivley dissagree with each other on many aspects of the app but this made for an app that weaved all of our best ideas into one finished product. 
+- Our daily standups were incredibly useful and allowed us to flag any blockers that we could code as a group before working on our own tasks as the days went on. 
+- Every time we made a change/completed a task from the trello board, we made sure to commit and merge our changes. 
 
-I’m a junior software engineer with a whole lot of love for tech and learning. Connect with me on [LinkedIn](https://www.linkedin.com/in/tomcriley/)!
+## Challenges
 
+- Speaking of merging, there was a rare merge conflict but we made sure to focus all our attention on resolving this and then we could move on quickly and avoid any issues down the line. Good communication and color coding the tasks we were completing made sure we avoided this issue for the most part. 
+
+- Working with Cloudinary for the first time proved incredibly challenging. As this was something none of us had experience with before, I reached out to one of our instructors who provided us with some clarity which, paired with the online documentation and youtube tutorials, made sure we could incorporate its functionality without draining too much productivity time. 
+
+## Stretch Goals 
+
+- Implementing a user bio
+- Whats near me function, using the users current coordinates. 
+- Fixing the state issue on the registration form. There is a progress bar that visualises progress for the user when registering. This works correctly if the user goes from one box to the other inputting their information. However, if the user inputs information into a box and then deletes the information, the progress bar still lights up as if this section has been 'completed' 
+
+## Takeaways
+
+- Pair programming really gave me a sense of collective ownership and increased our flow/focus state whilst maintaining a good morale. 
+- Getting to grips with JWT and their relationship with a browser's local storage was really valuable for my confidence moving forward with a solo, full stack project on the horizon.
